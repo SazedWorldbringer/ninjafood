@@ -42,7 +42,7 @@ function addMeal(mealData, random = false) {
               <img 
                 src="${mealData.strMealThumb}" 
                 alt="${mealData.strMeal}" 
-                class="w-full h-32 sm:h-48 object-cover" />
+                class="w-full h-32 sm:h-48 object-cover cursor-pointer" />
               <div class="m-4 flex justify-between items-center">
                 <span class="font-bold">${mealData.strMeal}</span>
                 <button class="fav-btn text-gray-500 text-sm">

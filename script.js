@@ -314,7 +314,7 @@ function showMealInfo(mealData) {
           </ul>
       </div>
     </div>
-    <p class="text-xl">${mealData.strInstructions}</p>
+    <p class="text-xl text-left">${mealData.strInstructions}</p>
     `;
 
   mealInfoEl.appendChild(mealEl);
